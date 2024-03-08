@@ -83,7 +83,7 @@ h3 {
   font-size: 16px;
   font-weight: 400;
   padding: 10px;
-  /* text-align: left; */
+  /* text-align: center; */
 }
 
 .sec_2B {
@@ -100,6 +100,7 @@ h3 {
   text-transform: capitalize;
   font-weight: 700;
   box-shadow: rgba(20, 21, 22, 0.2) 0px 8px 24px;
+  /* text-align: center; */
 }
 
 footer {
