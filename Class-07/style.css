@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+  box-sizing: border-box;
+}
+
+header {
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+ul li {
+list-style-type: none;
+font-size: 15px;
+}
+
+nav .nav {
+display: flex;
+gap: 2rem;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.sec-link-one {
+text-decoration: none;
+border: 1px solid gray;
+padding: 6px;
+background-color: #2d2828;
+color: white;
+border-radius: 6px;
+font-size: 13px;
+}
+
+.sec-one-img {
+border-radius: 50%;
+display: inline-block;
+margin-bottom: 30px;
+}
+
+.images {
+text-align: center;
+margin-top: 50px;
+}
+
+span {
+color: #878CFF;
+}
+
+button {
+border: none;
+padding: 9px 20px 9px 20px;
+margin-top: 30px;
+border-radius: 6px;
+color: #fff;
+background-color: #878CFF;
+}
+
+/* section 2 starts */
+
+.image-container img{
+  border-radius: 10%;
+  /* display: block; */
+}
+
+.section-two {
+background-color: #878CFF1C;
+margin-top: 70px;
+display: flex;
+/* flex-wrap: wrap; */
+justify-content: center;
+align-items: center;
+height: 400px;
+text-align: center;
+}
+
+.image-container {
+  align-self: center;
+  /* margin-left: 100px; */
+}
+
+.sec-two-div {
+  flex-basis: 500px;
+  /* text-align: center; */
+  /* flex-wrap: wrap; */
+}
+
+.sec-link-two {
+  background-color: #878CFF;
+  color: #fff;
+  padding: 9px 20px 9px 20px;
+  border-radius: 6px;
+  margin: 20px;
+  display: inline-block;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sec-three-h2 h2 {
+  text-align: center;
+}
+
+.sec-three-img {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-items: center;
+  text-align: center; */
+}
+
+.sec-three-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+}
+
+.container-four {
+  display: flex;
+  /* border: 1px solid red; */
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.another-container {
+  border-radius: 4px;
+  border: 1px solid #E2E2E2;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 300px;
+  padding: 20px;
+}
+
+.span {
+  font-size: 40px;
+  margin-left: 193px;
+}
+
+.h3 {
+  font-size: 26px;
+}
+
+footer {
+  background-color: #000;
+  width: 100%;
+  height: 180px;
+  text-align: center;
+  margin: 20px;
+  font-size: 30px;
+}
+
+ion-icon{
+  color: #fff;
+  padding-top: 80px;
+}
+
+.foo-ter {
+  font-size: 16px;
+  color: #fff;
+}
