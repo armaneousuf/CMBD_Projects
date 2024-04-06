@@ -1,0 +1,155 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFFCF5;
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.header a {
+  margin: 10px;
+  text-decoration: none;
+  color: #212832;
+  font-weight: 600;
+}
+
+.btn2 {
+  border: 1px solid #E1E5E8;
+  padding: 10px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 90px 0 2rem;
+  background-color: #FFFCF5;
+}
+
+
+.text {
+  margin-top: 100px;
+}
+
+.text h1 {
+  font-weight: 600;
+  font-size: 50px;
+  color: #21202A;
+}
+
+.text p {
+  font-weight: 400;
+  font-size: 18px;
+  color: #545360;
+}
+
+.btn3, .btn5 {
+  margin-top: 15px;
+  background-color: #3936C4;
+  padding: 12px;
+  border-radius: 8px;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.pro_texts {
+ text-align: center;
+ padding-top: 20px;
+ padding-top: 110px;
+}
+
+.pro_texts h2 {
+  color: #21202A;
+  font-size: 30px;
+}
+
+.pro_texts p {
+  color: #545360;
+}
+
+.pro_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  /* flex-wrap: wrap; */ 
+}
+
+.pro_items {
+  border: 1px solid #E4E4ED;
+  border-radius: 12px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 2rem;
+}
+
+.pro_items h3 {
+  color: #21202A;
+  font-size: 24px;
+}
+
+.btn4 {
+  text-decoration: none;
+  color: #21202A;
+}
+
+.sponsor {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.sponsor img {
+  padding-top: 2rem;
+  margin: 2rem;
+}
+
+.main-mask {
+  display: flex;
+  align-items: center;
+  padding-top: 110px;
+  position: relative;
+}
+
+.imgs img,
+.imgs p {
+  display: inline-block;
+  margin-right: 5px; 
+}
+
+.mask_layer h2 {
+  font-size: 35px;
+  color: #21202A;
+}
+
+.mask_layer p {
+  color: #545360;
+}
+
+.grid-layout {
+  text-align: center;
+  padding-top: 110px;
+}
+
+.grid-card {
+  display: flex;
+}
