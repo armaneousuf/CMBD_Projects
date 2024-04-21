@@ -321,10 +321,7 @@ footer h3 > span {
          /* media queries starts */
 
 @media screen and (max-width: 500px) {
-  body {
-    background-color: lightgreen;
-  }
-
+  
   .header {
     flex-direction: column;
     gap: 1rem;
